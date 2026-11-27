@@ -1,0 +1,1571 @@
+@charset "utf-8";
+
+/*--
+	Araneta City Color Scheme (2026)
+	Primary: #00afab (Teal - from logo)
+	Secondary: #6B2D7B (Violet - from logo)
+	Accent: #E91E63 (Magenta/Pink - from logo arc)
+	Green: #8BC34A (Green - from logo)
+	Background: #F7F8FA
+	Text: #222222
+--*/
+.nav-holder nav li a.act-link,
+.nav-holder nav li a:hover,
+.header-search_btn i,
+.show-reg-form i,
+.nice-select:before,
+.main-register_title span strong,
+.lost_password a,
+.custom-form.dark-form label span,
+.filter-tags input:checked:after,
+.custom-form .filter-tags input:checked:after,
+.custom-form .filter-tags label a,
+.section-subtitle,
+.footer-social li a,
+.subfooter-nav li a,
+#footer-twiit .timePosted a:before,
+#subscribe-button i,
+.nice-select .nice-select-search-box:before,
+.nav-holder nav li a i,
+.show-lang i,
+.lang-tooltip a:hover,
+.main-register-holder .tabs-menu li a i,
+.header-modal_btn i,
+.custom-form .log-submit-btn:hover i,
+.main-search-input-item label i,
+.header-search-input label i,
+.location a,
+.footer-contacts li i,
+#footer-twiit p.tweet:after,
+.subscribe-header h3 span,
+.footer-link i,
+.footer-widget-posts .widget-posts-date i,
+.clear-wishlist,
+.widget-posts-descr-link a:hover,
+.geodir-category-location a i,
+.header-modal-top span strong,
+.cart-btn:hover i,
+.to-top,
+.map-popup-location-info i,
+.infowindow_wishlist-btn,
+.infobox-raiting_wrap span strong,
+.map-popup-footer .main-link i,
+.infoBox-close,
+.mapnavbtn,
+.mapzoom-in,
+.mapzoom-out,
+.location-btn,
+.list-main-wrap-title h2 span,
+.grid-opt li span.act-grid-opt,
+.reset-filters i,
+.avatar-tooltip strong,
+.facilities-list li i,
+.geodir-opt-list a:hover i,
+.geodir-js-favorite_btn:hover i,
+.geodir-category_contacts li span i,
+.geodir-category_contacts li a:hover,
+.close_gcc:hover,
+.listsearch-input-wrap-header i,
+.listsearch-input-item span.iconn-dec,
+.more-filter-option-btn i,
+.clear-filter-btn i,
+.back-to-filters,
+.price-rage-wrap-title i,
+.listsearch-input-wrap_contrl li a i,
+.geodir-opt-tooltip strong,
+.listing-features li i,
+.gdop-list-link:hover i,
+.show-hidden-sb i,
+.filter-sidebar-header .tabs-menu li a i,
+.datepicker--day-name,
+.scroll-nav li a.act-scrlink,
+.scroll-nav-wrapper-opt a.scroll-nav-wrapper-opt-btn i,
+.show-more-snopt:hover,
+.show-more-snopt-tooltip a i,
+.breadcrumbs a:before,
+.list-single-stats li span i,
+.list-single-main-item-title h3 i,
+.box-widget-item-header i,
+.opening-hours ul li.todaysDay span.opening-hours-day,
+.listing-carousel-button,
+.list-single-main-item-title i,
+.list-single-main-item-title:before,
+.box-widget-item-header:before,
+.list-author-widget-contacts li span i,
+.btn i,
+.reviews-comments-item-date i,
+.rate-review i,
+.chat-widget_input button,
+.chat-widget_header h3 a,
+.custom-form .review-total span input,
+.photoUpload span i,
+.bottom-bcw-box_link a:hover,
+.custom-form label i,
+.video-box-btn,
+.claim-widget-link a,
+.custom-form .quantity span i,
+.scroll-nav li a.act-scrlink i,
+.share-holder.hid-share .share-container .share-icon,
+.sc-btn,
+.list-single-main-item-title h3 span,
+.ss-slider-cont,
+.team-social li a,
+.team-info h4,
+.simple-title span,
+.back-tofilters i,
+.breadcrumbs.block-breadcrumbs:before,
+.breadcrumbs.top-breadcrumbs a:before,
+.top-breadcrumbs .container:before,
+.header-sec-link a i,
+.map-modal-container h3 a,
+.map-modal-close,
+.post-opt li i,
+.cat-item li span,
+.cat-item li a:hover,
+.brd-show-share i,
+.author-social li a,
+.post-nav-text strong,
+.post-nav:before,
+.faq-nav li a.act-scrlink i,
+.faq-nav li a.act-scrlink:before,
+.faq-nav li a:hover i,
+.log-massage a,
+.cart-total strong,
+.action-button i,
+.dashboard-header-stats-item span,
+.dashboard-header-stats-item i,
+.add_new-dashboard i,
+.tfp-btn strong,
+.user-profile-menu li a i,
+.logout_btn i,
+.dashboard-message-text p a,
+.dashboard-message-time i,
+.pass-input-wrap span,
+.fuzone .fu-text i,
+.radio input[type="radio"]:checked+span:before,
+.booking-list-message-text h4 span,
+.dashboard-message-text h4 a:hover,
+.chat-contacts-item .chat-contacts-item-text span,
+.recomm-price i,
+.time-line-icon i,
+.testi-link,
+.testimonilas-avatar h4,
+.testimonilas-text:before,
+.testimonilas-text:after,
+.cc-btn,
+.single-facts_2 .inline-facts-wrap .inline-facts i,
+.images-collage-title,
+.collage-image-input i,
+.process-count,
+.listing-counter span,
+.main-search-input-tabs .tabs-menu li.current a,
+.hero-categories li a i,
+.main-search-input-item span.iconn-dec,
+.main-search-button i,
+.shb,
+.follow-btn i,
+.user-profile-header_stats li span,
+.follow-user-list li:hover a span,
+.dashboard-tabs .tabs-menu li a span,
+.bold-facts .inline-facts-wrap .num,
+.page-scroll-nav nav li a i,
+.mob-nav-content-btn i,
+.map-close,
+.post-opt-title a:hover,
+.post-author a:hover span,
+.post-opt a:hover,
+.breadcrumbs a:hover,
+.reviews-comments-header h4 a:hover,
+.listing-item-grid_title h3 a:hover,
+.geodir-category-content h3 a:hover,
+.footer-contacts li a:hover,
+.footer-widget-posts .widget-posts-descr a:hover,
+.footer-link:hover,
+.geodir-category-opt h4 a:hover,
+.header-search-button:hover i,
+.list-author-widget-contacts li a:hover,
+.list-single-author a:hover,
+.close-reg:hover,
+.pac-icon:before,
+.pi-text h4,
+.section-subtitle,
+.close-lpt {
+	color: #00afab;
+}
+
+.color-bg,
+.nice-select .option.selected.focus,
+.nav-holder nav li a:before,
+.section-separator:before,
+.footer-widget h3:before,
+.cluster div,
+.pagination a.current-page,
+.pagination a:hover,
+.irs-bar,
+.irs-slider,
+.irs-bar-edge,
+.catcar-scrollbar .swiper-scrollbar-drag,
+.checket-cat:after,
+.scroll-nav li a.act-scrlink:before,
+.listing-carousel_pagination .swiper-pagination-bullet.swiper-pagination-bullet-active,
+.box-media-zoom,
+.daterangepicker td.active,
+.list-widget-social li a,
+.btn.border-btn:hover,
+.chat-message.chat-message_user p,
+.chat-widget-button,
+.tags-stylwrap a:hover,
+.custom-form .quantity input.qty,
+.listing-hero-section .list-single-header-item h1:before,
+.box-item a,
+.menu-filters a.menu-filters-active,
+.promo-link i,
+.ss-slider-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active,
+.accordion a.toggle span,
+.search-widget .search-submit:hover,
+.reply-item:hover,
+#progressbar li.active span,
+#progressbar li:before,
+.user-profile-menu li a.user-profile-act:before,
+.new-dashboard-item,
+.dashboard-title:before,
+.dhs-controls div:hover,
+.message-counter,
+.chat-contacts-item:after,
+.tc-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active,
+.tc-pagination2 .swiper-pagination-bullet.swiper-pagination-bullet-active,
+.down-btn i,
+.listing-filters a.gallery-filter-active,
+.single-facts_2 .inline-facts-wrap:before,
+.single-social li a,
+.mob-nav-content-btn.slsw_vis,
+.infobox-status,
+.header-search_container .header-search-button:hover,
+.pac-item:hover,
+.process-item_time-line:before,
+.lg-actions .lg-next:hover,
+.lg-actions .lg-prev:hover,
+.listing-item-grid_title h3:before {
+	background: #00afab;
+}
+
+.pin,
+.nice-select:after,
+.loader-inner,
+.ed-btn,
+blockquote,
+.main-register-holder .tabs-menu li.current,
+.filter-sidebar-header .tabs-menu li.current,
+.header-search-input input:focus,
+.listsearch-input-wrap .tabs-menu li.current,
+.btn.border-btn {
+	border-color: #00afab;
+}
+
+.color2-bg,
+.list-widget-social li a:hover,
+.accordion a.toggle.act-accordion,
+.banner-wdget-content a:hover,
+.inline-lsiw .listsearch-input-wrap_contrl li.current a,
+.cc-btn:hover,
+.down-btn:hover,
+.new-dashboard-item:hover,
+.header-search-button:hover,
+.lg-actions .lg-next,
+.lg-actions .lg-prev,
+.box-media-zoom:hover,
+.main-search-button {
+	background: #6B2D7B;
+}
+
+.share-holder.hid-share .share-container .share-icon:hover {
+	color: #6B2D7B;
+}
+
+.green-bg,
+div.datedropper.primary .pick-submit,
+.footer-bg-pin,
+.gsd_open,
+.verified-badge,
+.toggle-filter-btn.tsb_act,
+.status.st_online span,
+.slide-progress,
+.reply-item,
+#progressbar li.active:last-child span,
+.user-profile-menu li a span,
+.infobox-status.open,
+.map-popup-location-category.shop-cat,
+.process-item_time-line:after {
+	background: #8BC34A;
+}
+
+.clear-wishlist:hover,
+.lang-tooltip li a:before,
+.opening-hours ul li.todaysDay span.opening-hours-time,
+.pricerange,
+.tags-stylwrap .tags-title i,
+.faq-nav li a i,
+.tfp-det p a,
+.tfp-btn:before,
+.green-bg_color,
+.testi-link:hover {
+	color: #8BC34A;
+}
+
+.orange-bg {
+	background: #E91E63;
+}
+
+.clear-singleinput {
+	color: #E91E63;
+}
+
+.blue-bg,
+.map-popup-location-category.gym-cat {
+	background: #00afab;
+}
+
+.blue-bg_color {
+	color: #00afab;
+}
+
+.red-bg,
+.gsd_close,
+.map-popup-location-category.cafe-cat,
+.infobox-status.close {
+	background: #E91E63;
+}
+
+.red-bg_color {
+	color: #E91E63;
+}
+
+.yellow-bg,
+.map-popup-location-category.hotels-cat {
+	background: #8BC34A;
+}
+
+.yellow-bg_color {
+	color: #8BC34A;
+}
+
+.purp-bg,
+.map-popup-location-category.event-cat {
+	background: #6B2D7B;
+}
+
+.purp-bg_color {
+	color: #6B2D7B;
+}
+
+.dark-blue-bg {
+	background: #6B2D7B;
+}
+
+.purp-gradient-bg {
+	background: linear-gradient(to left, #6B2D7B, #E91E63);
+}
+
+.green-gradient-bg {
+	background: linear-gradient(to left, #8BC34A, #00afab);
+}
+
+.blue-gradient-bg {
+	background: linear-gradient(to top, #00afab, #6B2D7B);
+}
+
+/*--
+	gradient - Araneta City teal gradient
+--*/
+.gradient-bg,
+.header-modal .tabs-menu li.current,
+.scrollbar-inner2 .simplebar-scrollbar:before {
+	background-color: #00afab;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#00afab), to(#6B2D7B));
+	background: -webkit-linear-gradient(top, #00afab, #6B2D7B);
+	background: -moz-linear-gradient(top, #00afab, #6B2D7B);
+	background: -ms-linear-gradient(top, #00afab, #6B2D7B);
+	background: -o-linear-gradient(top, #00afab, #6B2D7B);
+}
+
+/*--
+	dark gradient - Araneta City footer/dark areas (violet-based)
+--*/
+.gradient-dark {
+	background-color: #6B2D7B;
+	background: -webkit-gradient(linear, 20% 0%, 0% 10%, from(#6B2D7B), to(#222222));
+	background: -webkit-linear-gradient(right, #6B2D7B, #222222);
+	background: -moz-linear-gradient(right, #6B2D7B, #222222);
+	background: -ms-linear-gradient(right, #6B2D7B, #222222);
+	background: -o-linear-gradient(right, #6B2D7B, #222222);
+}
+
+/*--
+	Araneta City Custom Additions
+--*/
+.show-lang:hover i,
+.show-reg-form:hover,
+.close-reg:hover {
+	color: #00afab;
+}
+
+.add-list.color-bg {
+	background: #00afab;
+}
+
+.add-list.color-bg:hover {
+	background: #6B2D7B;
+}
+
+/*--
+	Header - Transparent at top (home only), Ayala navy on scroll
+--*/
+/* Default for inner pages: solid Ayala navy so links stay readable */
+.main-header {
+	background: linear-gradient(90deg, #007c79 0%, #00afab 100%);
+	/* Araneta City teal gradient */
+	border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+	transition: background 0.3s ease-in-out, box-shadow 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+/* Home page: transparent at the top, over the hero */
+.home-page .main-header {
+	background: transparent;
+	border-bottom: 1px solid transparent;
+	box-shadow: none;
+	backdrop-filter: blur(3px);
+	-webkit-backdrop-filter: blur(6px);
+}
+
+/* Home page: fade into Araneta City teal gradient once the user scrolls down */
+.home-page .main-header.scrolled {
+	background: linear-gradient(90deg, #007c79 0%, #00afab 100%);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Home page: let the hero sit BEHIND the transparent header.
+   The default layout reserves 80px at the top of #wrapper for the fixed
+   header; on the home page we remove that so the hero overlaps under it. */
+.home-page #wrapper {
+	padding-top: 0;
+}
+
+/* Nav link colors: white so they read over both the hero and the navy bar */
+.main-header .nav-holder nav ul li a {
+	color: #ffffff;
+}
+
+.main-header .nav-holder nav ul li a:hover,
+.main-header .nav-holder nav ul li a.act-link {
+	color: #6B2D7B;
+}
+
+.main-header .nav-holder nav ul li a i {
+	color: #ffffff;
+}
+
+.main-header .show-reg-form {
+	color: #ffffff;
+}
+
+.main-header .show-reg-form i {
+	color: #00afab;
+}
+
+.main-header .cart-btn i {
+	color: #ffffff;
+}
+
+.main-header .cart-btn:hover i {
+	color: #00afab;
+}
+
+.main-header .header-search_btn {
+	background: #00afab;
+	border-radius: 30px;
+}
+
+.main-header .header-search_btn span,
+.main-header .header-search_btn i {
+	color: #fff;
+}
+
+.main-header .nav-holder nav ul li ul {
+	background: #fff;
+	border: 1px solid #f0f0f0;
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.main-header .nav-holder nav ul li ul li a {
+	color: #222222;
+}
+
+.main-header .nav-holder nav ul li ul li a:hover {
+	color: #6B2D7B;
+}
+
+.add-list.color-bg {
+	background: #fff;
+	border-radius: 30px;
+	color: #6B2D7B;
+}
+
+.add-list.color-bg span {
+	color: #6B2D7B;
+}
+
+.add-list.color-bg:hover {
+	background: #d388ff;
+}
+
+/*--
+	Header Search Container Override
+--*/
+.header-search_container.header-search {
+	background: #F7F8FA;
+}
+
+.header-search-button.green-bg {
+	background: #6B2D7B;
+}
+
+.header-search-button.green-bg:hover {
+	background: #00afab;
+}
+
+/*--
+	Mobile header layout: Menu (left) - Logo (center) - Search (right)
+	Applies at the breakpoint where the hamburger menu appears (<= 1070px).
+--*/
+@media only screen and (max-width: 1070px) {
+	.main-header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		height: 70px;
+		position: fixed;
+	}
+
+	/* Search icon -> far RIGHT, transparent background */
+	.main-header .header-search_btn {
+		order: 3;
+		float: none !important;
+		margin: 0 !important;
+		top: auto !important;
+		position: relative;
+		background: transparent !important;
+		box-shadow: none !important;
+	}
+
+	/* Logo -> CENTER (absolutely centered so it stays put regardless of
+	   the differing widths of the search and menu buttons) */
+	.main-header .logo-holder {
+		order: 2;
+		float: none !important;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		height: 44px;
+		margin: 0 !important;
+	}
+
+	.main-header .logo-holder img {
+		height: 100%;
+		width: auto;
+	}
+
+	/* Hamburger menu -> far LEFT, transparent background */
+	.main-header .nav-button-wrap,
+	.main-header .nav-button-wrap.color-bg {
+		order: 1;
+		float: none !important;
+		margin: 0 !important;
+		top: auto !important;
+		position: relative;
+		background: transparent !important;
+		box-shadow: none !important;
+		display: flex !important;
+		align-items: center;
+		justify-content: center;
+		width: 40px;
+		height: 40px;
+	}
+
+	/* Make sure the three hamburger bars are visible and centered */
+	.main-header .nav-button {
+		position: static;
+		margin: 0;
+		width: 22px;
+		height: 16px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.main-header .nav-button span {
+		display: block !important;
+		width: 100%;
+		height: 2px;
+		margin: 2px 0;
+		background: #fff !important;
+	}
+
+	/* Icons stay white so they read on the transparent header */
+	.main-header .nav-button span {
+		background: #fff !important;
+	}
+
+	.main-header .header-search_btn i {
+		color: #fff !important;
+	}
+
+	/* Hide the "What's On" pill on mobile so the three items stay balanced */
+	.main-header .add-list {
+		display: none !important;
+	}
+}
+
+/*--
+	Mobile slide-in drawer menu (Ayala-style)
+	Logo + intro at top, centered links, CTA buttons at bottom, dark backdrop.
+--*/
+
+/* Drawer-only extras are hidden on desktop */
+.mob-drawer-only {
+	display: none;
+}
+
+.mob-drawer-overlay {
+	display: none;
+}
+
+@media only screen and (max-width: 1070px) {
+
+	/* Backdrop behind the drawer */
+	.mob-drawer-overlay {
+		display: block;
+		position: fixed;
+		inset: 0;
+		background: rgba(0, 0, 0, 0.5);
+		opacity: 0;
+		visibility: hidden;
+		transition: opacity 0.35s ease, visibility 0.35s ease;
+		z-index: 45;
+	}
+
+	.mob-drawer-overlay.is-open {
+		opacity: 1;
+		visibility: visible;
+	}
+
+	/* Show overlay when drawer is open */
+	.main-header .main-menu.vismobmenu~.mob-drawer-overlay {
+		opacity: 1 !important;
+		visibility: visible !important;
+	}
+
+	/* The drawer itself: full height, slides in from the LEFT.
+	   !important is used to defeat the theme's base .main-menu dropdown rules
+	   (white 300px top-right panel) that share this breakpoint. */
+	.main-header .main-menu,
+	.main-header .nav-holder.main-menu {
+		box-sizing: border-box !important;
+		position: fixed !important;
+		top: 0 !important;
+		left: 0 !important;
+		right: auto !important;
+		bottom: 0 !important;
+		width: 85% !important;
+		max-width: 380px !important;
+		height: 100vh !important;
+		min-height: 100vh !important;
+		max-height: 100vh !important;
+		margin: 0 !important;
+		padding: 30px 28px 28px !important;
+		border: 0 !important;
+		border-radius: 0 !important;
+		box-shadow: 2px 0 40px rgba(0, 0, 0, 0.25) !important;
+		background: linear-gradient(160deg, #6B2D7B 0%, #4a2160 55%, #00afab 100%) !important;
+		transform: translateX(-105%);
+		opacity: 1 !important;
+		visibility: hidden;
+		transition: transform 0.4s ease-in-out, visibility 0.4s ease-in-out;
+		overflow: hidden !important;
+		display: flex !important;
+		flex-direction: column;
+		z-index: 60 !important;
+	}
+
+	/* Open state */
+	.main-header .main-menu.vismobmenu,
+	.main-header .nav-holder.main-menu.vismobmenu {
+		transform: translateX(0) !important;
+		visibility: visible !important;
+		right: auto !important;
+	}
+
+	/* Show the drawer-only extras inside the drawer */
+	.main-menu .mob-drawer-only {
+		display: block;
+	}
+
+	/* Navigation menu: grows to fill space between intro and buttons */
+	.main-header .main-menu nav {
+		flex: 1;
+		overflow-y: auto;
+		overflow-x: hidden;
+		margin-bottom: 0;
+		width: 100% !important;
+		height: auto !important;
+		background: transparent !important;
+		display: block !important;
+		visibility: visible !important;
+		opacity: 1 !important;
+	}
+
+	/* The nav's UL list must be visible and stacked */
+	.main-header .main-menu nav>ul,
+	.main-header .main-menu nav ul.no-list-style {
+		display: block !important;
+		width: 100% !important;
+		height: auto !important;
+		margin: 0 !important;
+		padding: 0 !important;
+		list-style: none !important;
+		background: transparent !important;
+		visibility: visible !important;
+		opacity: 1 !important;
+	}
+
+	/* Nav items (top-level AND nested): force block stacking, kill the
+	   theme's float:left + height:50px from .nav-holder nav li which
+	   collapses them into an overlapping horizontal row. */
+	.main-header .main-menu nav ul li,
+	.main-header .nav-holder.main-menu nav li,
+	.main-header .nav-holder.main-menu nav li ul li {
+		display: block !important;
+		width: 100% !important;
+		height: auto !important;
+		float: none !important;
+		margin-left: 0 !important;
+		border: 0 !important;
+		background: transparent !important;
+		position: relative !important;
+		overflow: visible !important;
+	}
+
+	/* Nav links */
+	.main-header .main-menu nav ul li a {
+		display: block !important;
+		float: none !important;
+		width: 100% !important;
+		color: #fff !important;
+		font-size: 17px;
+		font-weight: 700;
+		text-align: left !important;
+		padding: 14px 4px !important;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.12) !important;
+		text-decoration: none;
+	}
+
+	.main-header .main-menu nav ul li a:hover {
+		color: #ffe08a !important;
+	}
+
+	/* Submenu (dropdown): collapsed by default, expands when parent has .drawer-open.
+	   Reset every positioning prop from the theme's .nav-holder nav li ul rule
+	   (absolute, top, left, margin-top:30px) so items flow in normal document
+	   order instead of stacking on top of each other. */
+	.main-header .main-menu nav ul li ul,
+	.main-header .nav-holder.main-menu nav li ul {
+		display: none !important;
+		position: static !important;
+		top: auto !important;
+		left: auto !important;
+		right: auto !important;
+		bottom: auto !important;
+		height: auto !important;
+		width: 100% !important;
+		margin: 0 !important;
+		padding: 0 0 0 16px !important;
+		background: rgba(0, 0, 0, 0.12) !important;
+		box-shadow: none !important;
+		transform: none !important;
+		opacity: 1 !important;
+		visibility: visible !important;
+	}
+
+	/* Expanded submenu */
+	.main-header .main-menu nav ul li.drawer-open>ul,
+	.main-header .nav-holder.main-menu nav li.drawer-open>ul {
+		display: block !important;
+	}
+
+	/* Rotate chevron when open */
+	.main-header .main-menu nav ul li.drawer-open>a i {
+		transform: rotate(180deg);
+	}
+
+	.main-header .main-menu nav ul li ul li a {
+		font-size: 14px;
+		font-weight: 500;
+		color: rgba(255, 255, 255, 0.8) !important;
+		padding: 11px 4px !important;
+	}
+
+	/* Chevron icons inside the drawer */
+	.main-header .main-menu nav ul li a i {
+		float: right;
+		color: rgba(255, 255, 255, 0.7);
+		margin-top: 3px;
+		transition: transform 0.25s ease;
+	}
+
+	/* Hide any cloned .menusb — we use the raw <nav> as the drawer menu.
+	   The theme's mobMenuInit() may clone the nav into .menusb; suppress it
+	   so it doesn't overlap our styled drawer navigation. */
+	.main-header .main-menu .menusb,
+	.main-header .main-menu ul.menusb,
+	.main-header .main-menu nav.menusb,
+	.main-header .main-menu .ui-menu {
+		display: none !important;
+	}
+
+	/* Top row: logo + close button */
+	.mob-drawer-top {
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-between;
+		margin-bottom: 22px;
+	}
+
+	.mob-drawer-logo {
+		display: inline-block;
+		height: 40px;
+	}
+
+	.mob-drawer-logo img {
+		height: 100%;
+		width: auto;
+
+	}
+
+	.mob-drawer-close {
+		width: 38px;
+		height: 38px;
+		border-radius: 50%;
+		border: 1px solid rgba(255, 255, 255, 0.6);
+		background: transparent;
+		color: #fff;
+		font-size: 16px;
+		line-height: 1;
+		cursor: pointer;
+		flex-shrink: 0;
+		transition: background 0.2s ease;
+	}
+
+	.mob-drawer-close:hover {
+		background: rgba(255, 255, 255, 0.15);
+	}
+
+	/* Intro text */
+	.mob-drawer-intro {
+		margin-bottom: 22px;
+		color: rgba(255, 255, 255, 0.85);
+		font-size: 14px;
+		line-height: 1.6;
+		flex-shrink: 0;
+	}
+
+	/* CTA buttons pinned near the bottom */
+	.mob-drawer-cta {
+		flex-shrink: 0;
+		margin-top: auto;
+		padding-top: 24px;
+		padding-bottom: max(12px, env(safe-area-inset-bottom));
+		border-top: 1px solid rgba(255, 255, 255, 0.2);
+		display: flex;
+		flex-direction: column;
+		gap: 12px;
+	}
+
+	.mob-cta-primary,
+	.mob-cta-secondary {
+		display: block;
+		width: 100%;
+		text-align: center;
+		padding: 15px 16px;
+		border-radius: 8px;
+		font-size: 15px;
+		font-weight: 700;
+		text-decoration: none;
+		transition: all 0.2s ease;
+	}
+
+	.mob-cta-primary {
+		background: #ffb703;
+		color: #3a1a45;
+	}
+
+	.mob-cta-primary:hover {
+		background: #ffc42e;
+	}
+
+	.mob-cta-secondary {
+		background: transparent;
+		color: #fff;
+		border: 1px solid rgba(255, 255, 255, 0.7);
+	}
+
+	.mob-cta-secondary:hover {
+		background: rgba(255, 255, 255, 0.15);
+	}
+}
+
+/*--
+	Footer - SM Supermalls style: solid brand color, link columns,
+	and a large circular monogram watermark on the right.
+--*/
+.aci-footer {
+	display: block !important;
+	visibility: visible !important;
+	opacity: 1 !important;
+	clear: both;
+	float: none;
+	width: 100%;
+	position: relative;
+	z-index: 10;
+	background: #212529;
+	color: #fff;
+	overflow: hidden;
+	padding: 60px 0 0;
+}
+
+/* Ensure the footer is never clipped by a preceding floated/animated section */
+.aci-footer::before {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.aci-footer .container {
+	position: relative;
+	z-index: 2;
+}
+
+/* Layout: contact block is wide, then three link columns */
+.aci-footer-grid {
+	display: grid;
+	grid-template-columns: 1.8fr 1fr 1fr;
+	gap: 40px;
+	padding-bottom: 50px;
+	position: relative;
+	z-index: 2;
+}
+
+/* Leave room on the left for the circle that bleeds off the edge (SM-style).
+   The monogram is 260px wide at left:30px (so it reaches ~290px), so reserve
+   a bit more than that to keep clear space between the logo and the contacts. */
+@media (min-width: 1200px) {
+	.aci-footer-grid {
+		padding-left: 330px;
+	}
+}
+
+/* Contact / address + socials */
+/* CONTACT heading - left aligned to match the other footer column headings. */
+.aci-footer-contact h4 {
+	font-size: 15px;
+	font-weight: 800;
+	color: #fff;
+	margin: 0 0 18px;
+	text-transform: uppercase;
+	letter-spacing: 0.03em;
+	text-align: left;
+}
+
+@media (max-width: 767px) {
+	.aci-footer-contact h4 {
+		font-size: 13px;
+		margin: 0 0 12px;
+		text-align: center;
+	}
+}
+
+.aci-contact-list {
+	list-style: none;
+	margin: 0 0 22px;
+	padding: 0;
+}
+
+.aci-contact-list li {
+	font-size: 14px;
+	line-height: 1.6;
+	margin-bottom: 12px;
+	color: rgba(255, 255, 255, 0.92);
+	display: flex;
+	gap: 10px;
+	text-align: left;
+}
+
+/* "Follow us on:" label sitting above the social icons. */
+.aci-footer-social h5 {
+	width: 100%;
+	font-size: 15px;
+	font-weight: 500;
+	color: #fff;
+	margin: 0 0 12px;
+	text-transform: uppercase;
+	letter-spacing: 0.03em;
+	text-align: left;
+}
+
+@media (max-width: 767px) {
+	.aci-footer-social h5 {
+		font-size: 13px;
+		margin: 0 0 10px;
+		text-align: center;
+	}
+}
+
+.aci-contact-list li i {
+	color: #00afab;
+	margin-top: 3px;
+}
+
+.aci-contact-list a {
+	color: rgba(255, 255, 255, 0.92);
+	text-decoration: none;
+}
+
+.aci-contact-list a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+/* Mall hours block in footer contact column */
+.aci-footer-hours {
+	margin: 0 0 22px;
+	text-align: left;
+}
+
+.aci-footer-hours h4 {
+	font-size: 15px;
+	font-weight: 800;
+	color: #fff;
+	margin: 0 0 10px;
+	text-transform: uppercase;
+	letter-spacing: 0.03em;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	text-align: left;
+}
+
+.aci-footer-hours h4 i {
+	color: #00afab;
+}
+
+.aci-footer-hours p {
+	font-size: 14px;
+	line-height: 1.6;
+	margin: 0 0 4px;
+	color: rgba(255, 255, 255, 0.92);
+	font-weight: 600;
+	text-align: left;
+}
+
+.aci-footer-social {
+	display: flex;
+	gap: 12px;
+	flex-wrap: wrap;
+}
+
+.aci-footer-social a {
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	background: rgba(255, 255, 255, 0.12);
+	color: #fff;
+	font-size: 15px;
+	transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.aci-footer-social a:hover {
+	background: #00afab;
+	transform: translateY(-2px);
+}
+
+/* Link columns (left-aligned, exactly like SM) */
+.aci-footer-col {
+	text-align: left;
+}
+
+.aci-footer-col h4 {
+	font-size: 15px;
+	font-weight: 800;
+	color: #fff;
+	margin: 0 0 18px;
+	text-transform: uppercase;
+	letter-spacing: 0.03em;
+}
+
+.aci-footer-col ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.aci-footer-col li {
+	margin-bottom: 13px;
+}
+
+.aci-footer-col a {
+	font-size: 14px;
+	color: rgba(255, 255, 255, 0.9);
+	text-decoration: none;
+	transition: color 0.2s ease;
+}
+
+.aci-footer-col a:hover {
+	color: #ffd166;
+}
+
+/* Big logo circle bleeding off the LEFT edge, exactly like SM's footer.
+   The left part of the circle is clipped by the viewport; the mark sits
+   in the visible right portion. */
+.aci-footer-monogram {
+	position: absolute;
+	left: 30px;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 260px;
+	height: 260px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	z-index: 1;
+	pointer-events: none;
+}
+
+/* Watermark-style mark: full logo, tinted to blend with the footer */
+.aci-footer-monogram img {
+	width: 100%;
+	height: 100%;
+	max-width: none;
+	object-fit: contain;
+	object-position: 60% center;
+	/* shift right to compensate for left-heavy padding */
+	display: block;
+	opacity: 0.15;
+}
+
+/* Sub-footer bar - light strip with dark text, like SM */
+.aci-subfooter {
+	background: #16191c;
+	padding: 14px 0;
+	position: relative;
+	z-index: 2;
+}
+
+.aci-subfooter-inner {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 12px;
+}
+
+.aci-copyright {
+	font-size: 12px;
+	color: rgba(255, 255, 255, 0.6);
+	text-transform: uppercase;
+	letter-spacing: 0.02em;
+}
+
+.aci-subfooter-nav {
+	list-style: none;
+	display: flex;
+	gap: 22px;
+	margin: 0;
+	padding: 0;
+}
+
+.aci-subfooter-nav a {
+	font-size: 12.5px;
+	color: rgba(255, 255, 255, 0.75);
+	text-decoration: none;
+}
+
+.aci-subfooter-nav a:hover {
+	color: #00afab;
+}
+
+/* ===== Responsive ===== */
+
+/* Laptops / small desktops: keep the edge-bleed circle, 2-col grid */
+@media (max-width: 1199px) {
+	.aci-footer-grid {
+		grid-template-columns: 1fr 1fr;
+		gap: 34px;
+		padding-left: 300px;
+	}
+}
+
+/* Tablets & phones: logo centered at the TOP instead of on the side */
+@media (max-width: 991px) {
+	.aci-footer {
+		padding-top: 48px;
+	}
+
+	.aci-footer-grid {
+		grid-template-columns: 1fr 1fr;
+		gap: 28px;
+		padding-left: 0;
+		/* reset the desktop edge-bleed padding */
+		padding-top: 200px;
+		/* room for the logo above */
+	}
+
+	/* Switch from side watermark to a centered logo at the top */
+	.aci-footer-monogram {
+		position: absolute;
+		left: 50%;
+		top: 40px;
+		transform: translateX(-50%);
+		width: 150px;
+		height: 150px;
+		justify-content: center;
+	}
+
+	.aci-footer-monogram img {
+		opacity: 1;
+	}
+
+	/* Center all footer content */
+	.aci-footer-contact,
+	.aci-footer-col {
+		text-align: center;
+	}
+
+	.aci-contact-list li {
+		justify-content: center;
+	}
+
+	.aci-footer-hours,
+	.aci-footer-hours h4,
+	.aci-footer-hours p {
+		text-align: center;
+	}
+
+	.aci-footer-hours h4 {
+		justify-content: center;
+	}
+
+	.aci-footer-social {
+		justify-content: center;
+	}
+}
+
+/* Phones: stack columns, keep logo centered on top */
+@media (max-width: 767px) {
+	.aci-footer {
+		padding-top: 40px;
+	}
+
+	.aci-footer-grid {
+		grid-template-columns: 1fr;
+		gap: 30px;
+		padding-top: 180px;
+	}
+
+	.aci-footer-monogram {
+		width: 130px;
+		height: 130px;
+		top: 34px;
+	}
+
+	.aci-subfooter-inner {
+		flex-direction: column;
+		align-items: center;
+		gap: 10px;
+		text-align: center;
+	}
+
+	.aci-subfooter-nav {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+}
+
+/* Very small phones: tighten spacing */
+@media (max-width: 420px) {
+	.aci-footer-grid {
+		padding-top: 160px;
+	}
+
+	.aci-footer-monogram {
+		width: 110px;
+		height: 110px;
+	}
+
+	.aci-subfooter-nav {
+		gap: 14px;
+	}
+}
+
+
+/*--
+	App Section - Download Araneta City App (with responsive layout)
+--*/
+.gradient-bg {
+	position: relative;
+	padding: 80px 0;
+	overflow: hidden;
+}
+
+@media (max-width: 767px) {
+	.gradient-bg.hidden-section {
+		overflow: visible;
+		padding-bottom: 0;
+	}
+}
+
+.gradient-bg .row {
+	display: flex !important;
+	flex-direction: row;
+	align-items: center;
+	gap: 40px;
+}
+
+.gradient-bg .col-md-6 {
+	flex: 1;
+	min-width: 0;
+}
+
+.colomn-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+}
+
+.colomn-text-title {
+	display: grid;
+	grid-template-columns: auto auto;
+	gap: 20px;
+	align-items: start;
+}
+
+.colomn-text-title h3 {
+	grid-column: 1 / -1;
+}
+
+.colomn-text-title p {
+	grid-column: 1 / -1;
+}
+
+.colomn-text-title .down-btn:first-of-type,
+.colomn-text-title .down-btn:nth-of-type(2) {
+	display: inline-flex;
+	margin-bottom: 0;
+}
+
+.colomn-text-title h3 {
+	font-size: 36px;
+	font-weight: 700;
+	color: #fff;
+	margin: 0;
+	line-height: 1.3;
+}
+
+.colomn-text-title p {
+	font-size: 15px;
+	color: rgba(255, 255, 255, 0.85);
+	line-height: 1.6;
+	margin: 0;
+}
+
+.down-btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 12px;
+	padding: 16px 27px 14px 59px;
+	border-radius: 50px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #fff;
+	text-decoration: none;
+	transition: all 0.3s ease;
+	border: 2px solid #fff;
+	background: transparent;
+	width: fit-content;
+	margin-right: 12px;
+	margin-bottom: 0;
+}
+
+.down-btn:last-child {
+	margin-right: 0;
+}
+
+.down-btn:hover {
+	transform: translateY(-3px);
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.down-btn i {
+	font-size: 18px;
+}
+
+.collage-image {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+
+.collage-image img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	min-width: 400px;
+}
+
+/* Mobile responsive: stack columns on small screens */
+@media (max-width: 767px) {
+	.gradient-bg {
+		padding: 60px 0;
+	}
+
+	.gradient-bg .row {
+		display: flex !important;
+		flex-direction: column;
+	}
+
+	.gradient-bg .col-md-6 {
+		flex: 1 1 100%;
+		width: 100%;
+		margin-bottom: 0;
+		order: 0;
+	}
+
+	.gradient-bg .col-md-6:first-child {
+		order: 1;
+	}
+
+	.gradient-bg .col-md-6:last-child {
+		order: 2;
+	}
+
+	.colomn-text-title {
+		grid-template-columns: 1fr;
+	}
+
+	.colomn-text-title h3 {
+		font-size: 28px;
+		grid-column: 1;
+	}
+
+	.colomn-text-title p {
+		font-size: 14px;
+		grid-column: 1;
+		margin-bottom: 20px;
+	}
+
+	.down-btn {
+		display: block;
+		width: 100%;
+		padding: 12px 24px;
+		font-size: 13px;
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+
+	.collage-image {
+		margin-top: 30px !important;
+		height: auto !important;
+		width: 100% !important;
+		order: 2;
+		overflow: visible;
+		position: relative;
+	}
+
+	.collage-image .main-collage-image,
+	.collage-image img.main-collage-image {
+		position: relative !important;
+		right: auto !important;
+		bottom: auto !important;
+		left: auto !important;
+		top: auto !important;
+		max-width: 260px;
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+		display: block;
+	}
+
+	.gradient-bg-figure {
+		display: none !important;
+	}
+
+	.circle-wrap {
+		display: none !important;
+	}
+}
+
+
+/*--
+	Safety net: the mobile drawer uses the raw <nav> as its menu.
+	Any cloned .menusb (built by the theme's scripts.js or legacy inline JS)
+	must never render — it would overlap the drawer navigation.
+	This is global (outside any media query) so it always wins.
+--*/
+.main-header .nav-holder.main-menu .menusb,
+.main-header .main-menu .menusb,
+.main-menu nav.menusb,
+.main-menu ul.menusb {
+	display: none !important;
+}
+
+
+/*--
+	Fix the category select icon. The theme's plugins.css sets
+	.nice-select:before to "Font Awesome 5 Pro", which isn't loaded
+	(Pro requires a license). We load Font Awesome 6 Free, so point the
+	pseudo-element at the correct family + solid weight (900) to render
+	the fa-bars glyph (\f0c9) instead of a broken box.
+--*/
+.nice-select:before {
+	font-family: "Font Awesome 6 Free" !important;
+	font-weight: 900 !important;
+	content: "\f0c9" !important;
+}
+
+/* Search box icon inside the nice-select dropdown (magnifying glass) */
+.nice-select .nice-select-search-box:before {
+	font-family: "Font Awesome 6 Free" !important;
+	font-weight: 900 !important;
+	content: "\f002" !important;
+}
+
+/* lightGallery navigation arrows (next/prev chevrons) */
+.lg-actions .lg-next:before,
+.lg-actions .lg-prev:after {
+	font-family: "Font Awesome 6 Free" !important;
+	font-weight: 900 !important;
+}
+
+.lg-actions .lg-next:before {
+	content: "\f105" !important;
+}
+
+.lg-actions .lg-prev:after {
+	content: "\f104" !important;
+}

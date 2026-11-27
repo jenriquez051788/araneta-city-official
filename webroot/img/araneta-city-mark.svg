@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 760" role="img" aria-label="Araneta City">
+  <title>Araneta City</title>
+
+  <!-- Symbol only (no wordmark), tightly cropped so it fills a circle
+       like SM's "SM" monogram. Counter centred at cx=400. -->
+
+  <!-- Outer ring, left half: PURPLE -->
+  <path fill="#8f2d8f"
+        d="M400 40
+           A360 360 0 0 0 400 760
+           L400 580
+           A180 180 0 0 1 400 220
+           Z"/>
+
+  <!-- Outer ring, right half + angled tail: RED -->
+  <path fill="#ed1c2e"
+        d="M400 40
+           A360 360 0 0 1 700 200
+           L700 600
+           L790 760
+           L560 760
+           A360 360 0 0 1 400 760
+           L400 580
+           A180 180 0 0 0 400 220
+           Z"/>
+
+  <!-- Inner counter, left half: TEAL -->
+  <path fill="#009b9b"
+        d="M400 220
+           A180 180 0 0 0 400 580
+           Z"/>
+
+  <!-- Green divider bar -->
+  <rect fill="#7ab648" x="400" y="222" width="100" height="356"/>
+</svg>

@@ -1,0 +1,28 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+</IfModule>
+
+# ----------------------------------------------------------------------
+# File-access hardening (defense in depth)
+# Response headers (CSP, X-Frame-Options, etc.) and directory/config
+# blocking live in the ROOT .htaccess. This guards the public web root.
+# ----------------------------------------------------------------------
+
+# Never list directory contents.
+Options -Indexes
+
+# Do not expose the server signature.
+ServerSignature Off
+
+# Block hidden dotfiles (.env, .git, .htaccess...) except ACME challenges.
+<IfModule mod_rewrite.c>
+    RewriteRule (^|/)\.(?!well-known) - [F]
+</IfModule>
+
+# Block source/backup/config file types that must never be public.
+# (Public assets like .css/.js/.png/.webmanifest are intentionally allowed.)
+<FilesMatch "\.(env|ini|log|sh|sql|bak|old|orig|save|swp|swo|dist|lock|neon)$">
+    Require all denied
+</FilesMatch>
